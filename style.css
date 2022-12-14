@@ -23,23 +23,26 @@
      align-items: center;
 }
  .image {
-     max-width: 10%;
+     max-width: 15%;
+     min-width: 10%;
      border-radius: 100%;
 }
  .name{
      padding-top: 10px;
      padding-bottom: 5px;
      font-size: 2rem;
+     text-align: center;
      font-family: "Pacifico";
      color: #c32aff;
 }
  .description{
      padding-top: 2px;
      padding-bottom: 10px;
-     font-size: 90%;
+     font-size: .8rem;
      font-family: "Fira Code";
      color: #c32aff;
      letter-spacing: 3px;
+     text-align: center;
 }
  .container_links {
      display: flex;
