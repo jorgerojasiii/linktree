@@ -23,8 +23,8 @@
      align-items: center;
 }
  .image {
-     max-width: 15%;
-     min-width: 10%;
+     max-width: 20%;
+     min-width: 125px;
      border-radius: 100%;
 }
  .name{
