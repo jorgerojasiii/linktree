@@ -2,6 +2,7 @@
 * {
      margin: 0;
      padding: 0;
+     padding-top: 8px;
 }
  body{
      background-color: #222831;
@@ -23,14 +24,14 @@
      align-items: center;
 }
  .image {
-     max-width: 20%;
-     min-width: 125px;
+     max-width: 7%;
+     min-width: 100px;
      border-radius: 100%;
 }
  .name{
      padding-top: 10px;
      padding-bottom: 5px;
-     font-size: 2rem;
+     font-size: 30px;
      text-align: center;
      font-family: "Pacifico";
      color: #c32aff;
@@ -38,18 +39,19 @@
  .description{
      padding-top: 2px;
      padding-bottom: 10px;
-     font-size: .8rem;
+     font-size: 15px;
      font-family: "Fira Code";
      color: #c32aff;
      letter-spacing: 3px;
      text-align: center;
+     max-width: 70%;
 }
  .container_links {
      display: flex;
      align-items: center;
      justify-content: center;
      flex-direction: column;
-     width: 100%;
+     width: 70%;
      text-align: center;
      gap: 20px;
 }
